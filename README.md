@@ -1,7 +1,7 @@
 # Legal-Trivia-Game
 
 ## 🎯 About the Project 
-The Legal Trivia Game is a fun and educational game designed to test players' knowledge of legal principles, famous cases, and general law-related trivia. 
+The Legal Trivia Game is a fun and educational game designed to test players' knowledge of legal principles, famous cases, and general law-related trivia. It serves as a valuable study tool, making learning more engaging and enjoyable for students. Additionally, new questions can be easily added, allowing for continuous expansion and customisation. 
 
 *Note:* This is an early version of the game and will be expanded with additional questions, features, and enhancements.
 
