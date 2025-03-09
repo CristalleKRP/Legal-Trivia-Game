@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Trivia Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Legal Trivia Game</h1>
+
+        <!-- Category Selection -->
+        <div id="category-container">
+            <button class="category-btn" data-category="tort">Tort Law</button>
+            <button class="category-btn" data-category="criminal">Criminal Law</button>
+            <button class="category-btn" data-category="contract">Contract Law</button>
+        </div>
+
+        <!-- Question and Answer Section -->
+        <div id="question-container" class="hidden">
+            <h2 id="category-title"></h2>
+            <p id="question"></p>
+            <div id="answer-buttons" class="btn-container"></div>
+        </div>
+
+        <!-- Controls (Start Button and Score) -->
+        <div id="controls">
+            <button id="start-btn" class="hidden">Start Game</button>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <!-- Timer Display -->
+        <div id="timer">Time Left: 20s</div>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

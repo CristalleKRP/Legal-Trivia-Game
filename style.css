@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Times New Roman', Times, serif; /* Times New Roman for the body */
+    background: url('images/legal.jpg') no-repeat center center fixed; /* Set background image */
+    background-size: cover; /* Ensure the background covers the entire screen */
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;  /* Remove default margin */
+}
+
+/* Styling for the Question */
+#question {
+    font-family: 'Times New Roman', sans-serif; /* Times New Roman for the question */
+    font-size: 24px;  /* Increase the font size of the question */
+    font-weight: bold;  /* Make the text bold */
+    margin-bottom: 20px;  /* Add some space between the question and the answers */
+}
+
+/* Game Container */
+.game-container {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}
+
+/* Button container and Category buttons */
+.btn-container, .category-btn {
+    margin-top: 15px;
+}
+
+.btn, .category-btn {
+    background: #000000;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Added horizontal padding */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover, .category-btn:hover {
+    background: #e98b58; /* Hover effect for buttons */
+}
+
+.hidden {
+    display: none;
+}
+
+/* Styling for Answer Buttons */
+#answer-buttons {
+    display: flex;
+    flex-wrap: wrap;  /* Allow buttons to wrap onto the next line */
+    gap: 30px;  /* Increased space between buttons */
+    justify-content: center;  /* Center buttons horizontally */
+    margin-top: 20px;  /* Space above the answer buttons */
+}
+
+#answer-buttons .btn {
+    padding: 20px 40px;  /* Increase button padding for a larger appearance */
+    width: 250px;  /* Increase the width of the buttons */
+    text-align: center;  /* Center text inside buttons */
+    font-size: 18px;  /* Increase the font size of the text inside the buttons */
+    margin: 15px;  /* Adds more space around each button */
+    border-radius: 8px;  /* Slightly rounded corners */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling for Timer */
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styling for Score Display */
+#score {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Styling for Start Button */
+#start-btn {
+    background: #4caf50; /* Green background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-btn:hover {
+    background: #45a049; /* Darker green on hover */
+}
